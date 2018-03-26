@@ -22,3 +22,23 @@ Using es6 with babel
 ```
   http://localhost:3000/graphiql
 ```
+
+#### Test data:
+```
+  mutation {
+    createCat(name: "This is a new Cat!") {
+      _id
+      name
+    }
+  }
+```
+
+#### To list all data:
+```
+  {
+    allCats {
+      _id
+      name
+    }
+  }
+```
