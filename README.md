@@ -6,8 +6,16 @@ A basic boilerplate for GraphQL with Express
   npm install
 ```
 
-Configured with eslint
+### Run the project
+```
+  yarn start
+```
+  or
+```
+  npm start
+```
 
+Configured with eslint
 Using es6 with babel
 
 #### GrqphQL route:
